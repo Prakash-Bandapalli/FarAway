@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&family=Rubik+Scribble&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  height: 30vh;
+  background-color: dodgerblue;
+  font-family: Rubik Scribble;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.midform {
+  min-height: 10vh;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.midform select,
+.midform input,
+.midform .add,
+.sort select,
+.sort button {
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 1em;
+}
+.list {
+  height: 40vh;
+  background-color: limegreen;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+}
+.list ul {
+  list-style: none;
+  width: 80%;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
+  justify-content: center;
+  align-content: start;
+  padding: 1em;
+}
+.list li {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1.2rem;
+  font-family: revolution;
+}
+input[type="checkbox"] {
+  height: 1.5rem;
+  width: 1.5rem;
+  accent-color: dogerblue;
+  display: inline-block;
+}
+.list li button {
+  border: none;
+  font-size: 1rem;
+}
+.list .sort {
+  margin: 1rem;
+}
+.list .sort select,
+.list .sort button {
+  margin: 1rem;
+}
+footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  background-color: yellow;
+  font-family: poppins;
+  font-size: 1.5rem;
+}
